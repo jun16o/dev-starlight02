@@ -7,7 +7,7 @@ export default defineConfig({
 	base: '/dev-starlight02',
 	integrations: [
 		starlight({
-			title: 'My Docs1',
+			title: 'Help site',
 			favicon: '/favicon.svg',
 			// logo: {
 			// 	alt: 'サービス名',
