@@ -3,8 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://jun16o.github.io',
-	base: '/dev-starlight02',
+	site: 'https://dev03.jun16o.net',
+	// base: '/dev-starlight02',
 	integrations: [
 		starlight({
 			title: 'Help site',
