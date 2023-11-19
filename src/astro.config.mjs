@@ -3,9 +3,27 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://jun16o.github.io',
+	base: '/dev-starlight02',
 	integrations: [
 		starlight({
 			title: 'My Docs1',
+			favicon: '/favicon.svg',
+			// logo: {
+			// 	alt: 'サービス名',
+			// 	replacesTitle: false,
+			// 	light: '/src/assets/images/web_logo_x01.png',
+			// 	dark: '/src/assets/images/web_white_logo_x01.png',
+			// },
+			customCss: [
+				'/src/assets/styles/custom.css',
+			],
+			locales: {
+				root: {
+					label: '日本語',
+					lang: 'ja',
+				},
+			},
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
