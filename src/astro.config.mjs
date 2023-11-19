@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://dev03.jun16o.net',
-	// base: '/dev-starlight02',
+	base: '/',
 	integrations: [
 		starlight({
 			title: 'Help site',
